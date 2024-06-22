@@ -37,7 +37,7 @@ jobs:
       - name: Install source-sans-pro
         run: git clone https://github.com/adobe-fonts/source-sans-pro.git ~/.fonts/adobe-fonts/source-sans-pro
       - name: Update font caches
-        run: fc-cache -f -v ~/.fonts/adobe-fonts/*
+        run: sudo fc-cache -f -v ~/.fonts/adobe-fonts/*
       - name: show installed fonts
         run: fc-list | grep -i "Source"
 
