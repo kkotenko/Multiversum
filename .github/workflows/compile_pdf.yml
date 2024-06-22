@@ -33,6 +33,6 @@ jobs:
       - name: Github Action for LaTeX
         uses: xu-cheng/latex-action@3.2.0
         with:
-          root_file: src/ausgabe028.tex
+          root_file: src/ausgabe027.tex
           docker_image: ghcr.io/xu-cheng/texlive-full:20230801
             
