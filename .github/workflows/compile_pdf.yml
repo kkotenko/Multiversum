@@ -33,11 +33,11 @@ jobs:
       - name: Install source-code-pro
         run: git clone https://github.com/adobe-fonts/source-code-pro.git ~/.fonts/adobe-fonts/source-code-pro
       - name: Install source-serif-pro
-        run: git clone https://github.com/adobe-fonts/source-serif-pro.git ~/.fonts/adobe-fonts/source-serif-pro
+        run: git clone https://github.com/adobe-fonts/source-serif.git ~/.fonts/adobe-fonts/source-serif
       - name: Install source-sans-pro
-        run: git clone https://github.com/adobe-fonts/source-sans-pro.git ~/.fonts/adobe-fonts/source-sans-pro
+        run: git clone https://github.com/adobe-fonts/source-sans.git ~/.fonts/adobe-fonts/source-sans
       - name: Update font caches
-        run: sudo fc-cache -f -v ~/.fonts/adobe-fonts/*
+        run: fc-cache -f -v ~/.fonts/adobe-fonts/*
       - name: show installed fonts
         run: fc-list | grep -i "Source"
 
