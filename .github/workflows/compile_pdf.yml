@@ -28,7 +28,7 @@ jobs:
         run: tlmgr update --self
         
       - name: Install additional TeX packages
-        run: tlmgr install xpatch mparhack
+        run: tlmgr install xpatch textcase mparhack
 
       - name: Github Action for LaTeX
         run: latexmk src/multiversum-027.tex
