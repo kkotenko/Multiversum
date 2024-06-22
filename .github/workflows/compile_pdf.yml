@@ -28,7 +28,7 @@ jobs:
         run: tlmgr update --self
         
       - name: Install additional TeX packages
-        run: tlmgr install xpatch textcase mparhack datetime fmtcount
+        run: tlmgr install xpatch textcase mparhack datetime fmtcount doclicense
 
       - name: Install source-code-pro
         run: git clone https://github.com/adobe-fonts/source-code-pro.git ~/.fonts/adobe-fonts/source-code-pro
