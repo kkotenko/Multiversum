@@ -62,13 +62,13 @@
 % We use the open Adobe Source font family
 % https://github.com/adobe-fonts
 %
-% Roman (Serif) Font: Source Serif Pro Light/Semibold
+% Roman (Serif) Font: Source Serif Light/Semibold
 \setprimaryfont[
 UprightFont={* Light},
 ItalicFont={* Light Italic},
 BoldFont={* Semibold},
 BoldItalicFont={* Semibold Italic},
-Scale=MatchLowercase]{Source Serif Pro}
+Scale=MatchLowercase]{Source Serif}
 %
 % Sans Font: Source Sans Pro Light/Semibold
 \setallsansfonts[
@@ -85,7 +85,7 @@ BoldFont={* Semibold},
 Scale=MatchLowercase]
 {Source Code Pro}
 %
-% Replace math greek fonts by Source Serif Pro (No Italics available -> Use fake italics)
+% Replace math greek fonts by Source Serif (No Italics available -> Use fake italics)
 \setmathfont(Greek)[
   UprightFont={* Light},
   ItalicFont={* Light Italic},
@@ -93,7 +93,7 @@ Scale=MatchLowercase]
   BoldItalicFont={* Semibold Italic},
   Scale=MatchLowercase
 ]
-{Source Serif Pro}
+{Source Serif}
 %
 %%%
 
