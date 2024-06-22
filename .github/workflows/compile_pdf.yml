@@ -27,8 +27,8 @@ jobs:
       - name: update Tex Library Manager
         run: tlmgr update --self
         
-      - name: Install xpatch
-        run: tlmgr install xpatch
+      - name: Install additional TeX packages
+        run: tlmgr install xpatch mparhack
 
       - name: Github Action for LaTeX
         run: latexmk src/multiversum-027.tex
