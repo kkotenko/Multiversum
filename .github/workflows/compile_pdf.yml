@@ -34,5 +34,5 @@ jobs:
         uses: xu-cheng/latex-action@3.2.0
         with:
           root_file: src/multiversum-027.tex
-          docker_image: ghcr.io/moss-it/docker-xelatex
+          docker_image: docker://moss/xelatex:latest
             
