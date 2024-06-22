@@ -28,7 +28,7 @@ jobs:
         run: tlmgr update --self
         
       - name: Install additional TeX packages
-        run: tlmgr install xpatch textcase mparhack datetime fmtcount doclicense xifthen xstring wrapfig ragged2e csquotes ccicons censor
+        run: tlmgr install xpatch textcase mparhack datetime fmtcount doclicense xifthen xstring wrapfig ragged2e csquotes ccicons censor pbox
 
       - name: Install source-code-pro
         run: git clone https://github.com/adobe-fonts/source-code-pro.git ~/.fonts/adobe-fonts/source-code-pro
