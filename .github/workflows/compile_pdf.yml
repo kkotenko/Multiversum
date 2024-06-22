@@ -24,12 +24,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
+      - name: update Tex Library Manager
+        run: tlmgr update --self
+        
       - name: Install xpatch
         run: tlmgr install xpatch
 
-      # Runs a set of commands using the runners shell
       - name: Github Action for LaTeX
         run: latexmk src/multiversum-027.tex
             
