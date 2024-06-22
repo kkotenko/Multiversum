@@ -19,7 +19,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+    container: moss/xelatex:latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -34,5 +34,4 @@ jobs:
         uses: xu-cheng/latex-action@3.2.0
         with:
           root_file: src/multiversum-027.tex
-          docker_image: docker://moss/xelatex:latest
             
