@@ -68,7 +68,7 @@ UprightFont={* Light},
 ItalicFont={* Light Italic},
 BoldFont={* Semibold},
 BoldItalicFont={* Semibold Italic},
-Scale=MatchLowercase]{Source Serif}
+Scale=MatchLowercase]{Source Serif 4}
 %
 % Sans Font: Source Sans Pro Light/Semibold
 \setallsansfonts[
@@ -93,7 +93,7 @@ Scale=MatchLowercase]
   BoldItalicFont={* Semibold Italic},
   Scale=MatchLowercase
 ]
-{Source Serif}
+{Source Serif 4}
 %
 %%%
 
