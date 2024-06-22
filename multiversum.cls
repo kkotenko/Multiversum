@@ -70,13 +70,13 @@ BoldFont={* Semibold},
 BoldItalicFont={* Semibold Italic},
 Scale=MatchLowercase]{Source Serif 4}
 %
-% Sans Font: Source Sans Pro Light/Semibold
+% Sans Font: Source Sans Light/Semibold
 \setallsansfonts[
 UprightFont={* Light},
 ItalicFont={* Light Italic},
 BoldFont={* Semibold},
 BoldItalicFont={* Semibold Italic},
-Scale=MatchLowercase]{Source Sans Pro}
+Scale=MatchLowercase]{Source Sans 3}
 %
 % Mono Font: Source Code Pro Light/Semibold (No Italics available)
 \setallmonofonts[
